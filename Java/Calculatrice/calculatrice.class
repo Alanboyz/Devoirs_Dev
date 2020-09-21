@@ -1,0 +1,18 @@
+class Calculator{
+
+
+  private String error;
+  private int nb1;
+  private int nb2;
+  private int result;
+
+
+  public Calculator(String uneerror, int unnb1, int unnb2, int unresult)
+  
+  {
+    this.error = uneerror;
+    this.nb1 = unnb1;
+    this.nb2 = unnb2;
+    this.result = unresult;
+  }
+}
